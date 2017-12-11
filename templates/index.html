@@ -27,11 +27,9 @@
         <div class='menuitem menuitem-right'>Sign in</div>
         <div class='menuitem menuitem-right'>Sign up</div>
         <div class='menuitem'>Home</div>
-
-
       </div>
 
-      <div class='pageTitle'>Be The Wave...</div>
+      <div class='pageTitle'  id='logo' onmouseover="LogoRipple.run(document.getElementById('logo'))"><span>B</span><span>e</span> <span>T</span><span>h</span><span>e</span> <span>W</span><span>a</span><span>v</span><span>e</span><span>.</span><span>.</span><span>.</span></div>
       <div class='contentBoxOuter'><div class='contentBoxInner'>
       <div class='buttonContainer' id='buttonContainer'>
         <a class="typeform-share button"
@@ -59,8 +57,7 @@
         <p>What does it do:
         <ul>
           <li>Lowers turnout</li>
-          <li>skews elections toward the already
-powerful</li>
+          <li>skews elections toward the already powerful</li>
         </ul>
         </p>
       </div>
@@ -166,8 +163,8 @@ powerful</li>
         </ol>
       </div>
     </div>
-   </div>
   </div>
+</div>
 
 <div class='trigger' style="top: 30px;" onclick='selectItem(1)'>1</div>
 <div class='trigger'  style="top: 48px;" onclick='selectItem(2)'>2</div>
@@ -175,6 +172,7 @@ powerful</li>
 <div class='trigger'  style="top: 84px;" onclick='selectItem(4)'>4</div>
 <div class='trigger'  style="top: 102px;" onclick='selectItem(5)'>5</div>
 
+<script src='./js/LogoRipple.js'></script>
 <script>
   function selectItem(index) {
     for(var i=1; i<6; i++) {
@@ -188,7 +186,7 @@ powerful</li>
     button = document.getElementById('buttonContainer');
     button.style.display = (index == 1) ? '' : 'none';
   }
- </script>
+</script>
 
-  </body>
+ </body>
 </html>
