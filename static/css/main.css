@@ -1,6 +1,6 @@
 @font-face {
   font-family: blacklist;
-  src: url('TheBlackList.ttf');
+  src: url(blacklist.ttf);
 }
 
 .menubar {
@@ -56,14 +56,14 @@
   font-family: arial;
   color: #fff;
   margin: 0px auto;
-  width: 70%;
+  width: 100%;
   border-radius: 11px;
   box-shadow: 2px 2px 2px #000;
   overflow: auto;
 }
 
 .buttonContainer {
-  width: 80%;
+  width: 100%;
   text-align: center;
 }
 
